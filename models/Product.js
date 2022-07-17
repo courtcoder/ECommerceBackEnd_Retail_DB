@@ -19,12 +19,11 @@ Product.init(
     product_name: {
       type: DataTypes.STRING,
       allowNull: false,
-      primaryKey: true,
-      autoIncrement: true,
     },
     price: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      //figure out the limits for price to show 2 decimals etc
     },
     stock: {
       type: DataTypes.INTEGER,
